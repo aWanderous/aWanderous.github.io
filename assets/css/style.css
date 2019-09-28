@@ -20,9 +20,11 @@ html, body {
     font-family: 'Source Serif Pro', serif;
     text-align: center;
     font-size: 50px;
-    transition: width 2s;
 }
 
+.card-title {
+    font-family: 'Source Serif Pro', serif;
+}
 footer {
     color: lightskyblue;
 }
@@ -33,11 +35,12 @@ footer {
     bottom: 0;
     right: 0;
     font-size: 15px;
+    cursor: pointer;
 }
 nav, li {
     display: inline;
     white-space: nowrap;
-
+    cursor: pointer;
 }
 
 #github, #linkedIn {
@@ -50,4 +53,12 @@ nav, li {
 
 #github {
     height: 65px;
+}
+
+.assignment {
+    width: 100%;
+}
+
+.text-light {
+    font-weight: bold;
 }
