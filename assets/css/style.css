@@ -1,0 +1,53 @@
+html, body {
+    background-image: url("../../assets/images/black.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    background-image: url("../../assets/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#projectsDone, #contactDetails {
+    display: none;
+}
+
+#logo {
+    color: lightskyblue;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 50px;
+    transition: width 2s;
+}
+
+footer {
+    color: lightskyblue;
+}
+
+#top {
+    color: yellow;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 15px;
+}
+nav, li {
+    display: inline;
+    white-space: nowrap;
+
+}
+
+#github, #linkedIn {
+    float: right;
+}
+
+#linkedIn {
+    height: 50px;
+}
+
+#github {
+    height: 65px;
+}
