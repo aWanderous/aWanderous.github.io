@@ -41,7 +41,15 @@ nav, li {
     cursor: pointer;
     position: fixed;
     left: 0px;
-    top: 35px;
+    top: 0px;
+    z-index: 99;
+}
+.nav-link{
+    padding: 0px;
+    background-image: url("../../assets/images/black.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 #github, #linkedIn {
