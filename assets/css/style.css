@@ -38,9 +38,10 @@ footer {
     cursor: pointer;
 }
 nav, li {
-    display: inline;
-    white-space: nowrap;
     cursor: pointer;
+    position: fixed;
+    left: 0px;
+    top: 35px;
 }
 
 #github, #linkedIn {
