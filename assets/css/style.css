@@ -37,6 +37,7 @@ footer {
     font-size: 15px;
     cursor: pointer;
 }
+
 nav, li {
     cursor: pointer;
     position: fixed;
@@ -44,6 +45,7 @@ nav, li {
     top: 0px;
     z-index: 99;
 }
+
 .nav-link{
     padding: 0px;
     background-image: url("../../assets/images/black.jpg");
