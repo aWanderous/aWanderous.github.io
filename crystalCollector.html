@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystals Collector Game</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Grenze|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="crystalHead">
+    <div class="container">
+      <h1>Crystals Collector!</h1>
+    </div>
+  </header>
+
+  <!-- Objective story-->
+  <div class="container">
+    <div id="story">
+      <h2 id="result"></h2>
+      <h3 id="score"></h3> 
+      <p>The bandits has taken</p>
+      <!-- resets every game -->
+      <p id="getNumber"></p>
+      <p id="again"></p>
+      <p>To get the crystals, you <span class="importantText">can not take more than what was stolen from us</span> or the bandits will know it is us...</p>
+      <p>but I need all of my lord's crystals back or the lord will...</p>
+      <p>each room contains <span class="importantText">boxes of different amount of crystals, click on them</span> to take a box of crystals.</p>
+      <p id="collected"></p>
+    </div>
+  </div>
+
+  <!-- click on boxes -->
+  <div class="container">
+    <div class="row">
+      <button class="col-md-3" id="legoBox"><img src="assets/images/legoBox.jpg" alt="lego"></button>
+      <button class="col-md-3" id="plasticBox"><img src="assets/images/plasticBox.jpg" alt="plastic"></button>
+      <button class="col-md-3" id="stonesBox"><img src="assets/images/stonesBox.jpg" alt="stones"></button>
+      <button class="col-md-3" id="treasureBox"><img src="assets/images/treasureBox.jpg" alt="treasure"></button>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
