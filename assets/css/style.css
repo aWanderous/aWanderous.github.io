@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-image: url("../../assets/images/black.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -11,7 +12,8 @@ html, body {
     background-size: cover;
 }
 
-#projectsDone, #contactDetails {
+#projectsDone,
+#contactDetails {
     display: none;
 }
 
@@ -25,6 +27,7 @@ html, body {
 .card-title {
     font-family: 'Source Serif Pro', serif;
 }
+
 footer {
     color: lightskyblue;
 }
@@ -38,7 +41,8 @@ footer {
     cursor: pointer;
 }
 
-nav, li {
+nav,
+li {
     cursor: pointer;
     position: fixed;
     left: 0px;
@@ -46,7 +50,8 @@ nav, li {
     z-index: 99;
 }
 
-.nav-link{
+.nav-link,
+#top {
     padding: 0px;
     background-image: url("../../assets/images/black.jpg");
     background-attachment: fixed;
@@ -54,7 +59,8 @@ nav, li {
     background-size: cover;
 }
 
-#github, #linkedIn {
+#github,
+#linkedIn {
     float: right;
 }
 
