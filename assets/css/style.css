@@ -12,8 +12,7 @@ body {
     background-size: cover;
 }
 
-#projectsDone,
-#contactDetails {
+#projectsDone {
     display: none;
 }
 
@@ -72,6 +71,9 @@ li {
     height: 55px;
 }
 
+.githubLink {
+    height: 25px;
+}
 .assignment {
     width: 100%;
 }

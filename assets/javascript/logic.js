@@ -1,4 +1,4 @@
-$(document).on('click', '.scroll', function() {
+$(document).on('click', '.scroll', function () {
     switch ($(this).attr('id')) {
         case 'about':
             $('html, body').animate({
@@ -14,19 +14,16 @@ $(document).on('click', '.scroll', function() {
             break;
 
         case 'contact':
-                $("#contactDetails").show();
             $('html, body').animate({
                 scrollTop: $("#contactDetails").offset().top
             }, 1000)
             console.log("clicked")
             break;
 
-         case 'top':
+        case 'top':
             $('html, body').animate({
                 scrollTop: $("html").offset().top
             }, 1000)
             break;
     }
 });
-
-$
