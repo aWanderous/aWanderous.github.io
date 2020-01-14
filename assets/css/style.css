@@ -58,6 +58,7 @@ li {
     background-size: cover;
 }
 
+#resume,
 #github,
 #linkedIn {
     float: right;
@@ -71,6 +72,10 @@ li {
     height: 55px;
 }
 
+#resume {
+    height: 55px;
+    margin-right: 15px;
+}
 .githubLink {
     height: 25px;
 }
